@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:noise",
+  "name": "skylands:skylands",
+  "settings": {
+    "sea_level": 0,
+    "noise": {
+      "density_factor": -0.07,
+      "density_offset": 0.6,
+      "size_horizontal": 2,
+      "size_vertical": 1,
+      "sampling": {
+        "xz_scale": 1.0,
+        "y_scale": 0.8,
+        "xz_factor": 80.0,
+        "y_factor": 160.0
+      },
+      "top_slide": {
+        "target": -5,
+        "size": 3,
+        "offset": 0
+      },
+      "bottom_slide": {
+        "target": -30,
+        "size": 0,
+        "offset": 0
+      }
+    },
+    "top_material": {
+      "Name": "minecraft:grass_block"
+    },
+    "under_material": {
+      "Name": "minecraft:stone"
+    },
+    "default_block": {
+      "Name": "minecraft:deepslate"
+    },
+    "default_fluid": {
+      "Name": "minecraft:air"
+    }
+  }
+}
