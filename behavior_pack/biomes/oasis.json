@@ -18,6 +18,12 @@
       "minecraft:oak_trees",
       "minecraft:stone_spots",
       "minecraft:village"
-    ]
+    ],
+    "spawn_costs": {
+      "minecraft:sheep": { "charge": 1, "energy_budget": 1 },
+      "minecraft:chicken": { "charge": 1, "energy_budget": 1 },
+      "minecraft:cow": { "charge": 1, "energy_budget": 1 },
+      "minecraft:pig": { "charge": 1, "energy_budget": 1 }
+    }
   }
 }
