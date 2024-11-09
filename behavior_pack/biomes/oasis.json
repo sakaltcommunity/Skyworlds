@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:biome",
+  "name": "skylands:oasis",
+  "settings": {
+    "precipitation": "rain",
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "category": "plains",
+    "effects": {
+      "sky_color": 7842047,
+      "fog_color": 12638463,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "noise_settings": "minecraft:skylands:skylands",
+    "features": [
+      "minecraft:trees",
+      "minecraft:oak_trees",
+      "minecraft:stone_spots",
+      "minecraft:village"
+    ]
+  }
+}
